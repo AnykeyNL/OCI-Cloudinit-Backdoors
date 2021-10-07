@@ -16,6 +16,9 @@ Windows cloud-init script does a lot more. First is enabled the instance to have
 
 The script will reboot once after being created to enable the serial console
 
+## Usage
+When creating a new instance in OCI, click on the Advanced Setting section in the bottom of the page and choise "past cloud init script". There you can paste the correct script depending on your operating system
+
 ## Credits
 
 Thank you to Jordan Mills for providing the completed method to Disable RDP access via powershell: https://jordanmills.wordpress.com/2014/07/31/change-local-user-rights-assignment-from-powershell/
