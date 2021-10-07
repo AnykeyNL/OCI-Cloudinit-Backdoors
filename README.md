@@ -2,6 +2,10 @@
 
 In this repository you will find example cloud-init script that will buildin a backdoor for your compute instance on OCI. 
 
+More info:
+- https://www.oc-blog.com/2021/10/06/direct-console-access-to-your-linux-instances-from-the-oci-console/
+- https://www.oc-blog.com/2021/10/07/direct-console-access-to-your-windows-instances-from-the-oci-console/
+
 The attached cloud-init examples will create a user called backdoor with password 1LoveOracle!!
 
 ## Linux
